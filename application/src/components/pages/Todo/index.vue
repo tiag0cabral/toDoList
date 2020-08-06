@@ -2,7 +2,7 @@
   <div class="ui centered card">
     <div class="content" v-show="!ehEditavel">
       <div class="header">{{ todo.titulo }}</div>
-      <div class="meta">{{ todo.projeto }}</div>
+      <div class="meta">{{ todo.anotacao }}</div>
       <div class="extra content">
         <span class="right floated edit icon" v-on:click="abrirForm">
           <i class="edit icon"></i>
@@ -19,8 +19,8 @@
           <input type="text" v-model="todo.titulo">
         </div>
         <div class="field">
-          <label>Projeto</label>
-          <input type="text" v-model="todo.projeto">
+          <label>Anotações</label>
+          <input type="text" v-model="todo.anotacao">
         </div>
         <div class="ui two button attached buttons">
           <button class="ui basic blue button" v-on:click="fecharForm">Fechar X</button>

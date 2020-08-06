@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       textoTitulo: '',
-      textoProjeto: '',
+      textoAnotacao: '',
       foiCriado: false,
     };
   },
@@ -22,17 +22,17 @@ export default {
       this.foiCriado = false;
     },
     enviarForm() {
-      if (this.textoTitulo.length > 0 && this.textoProjeto.length > 0) {
+      if (this.textoTitulo.length > 0 && this.textoAnotacao.length > 0) {
         const titulo = this.textoTitulo;
-        const projeto = this.textoProjeto;
+        const anotacao = this.textoAnotacao;
 
         this.$emit('create-todo', {
           titulo,
-          projeto,
+          anotacao,
           concluido: false,
         });
         this.textoTitulo = '';
-        this.textoProjeto = '';
+        this.textoAnotacao = '';
         this.foiCriado = false;
       }
     },

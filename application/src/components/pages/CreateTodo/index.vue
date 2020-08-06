@@ -11,8 +11,8 @@
             <input v-model="textoTitulo" type="text">
           </div>
           <div class="field">
-            <label>Projeto</label>
-            <input v-model="textoProjeto" type="text">
+            <label>Anotações</label>
+            <input v-model="textoAnotacao" type="text">
           </div>
           <div class="ui two button attached buttons">
             <button class="ui basic blue button" v-on:click="enviarForm()">Adicionar</button>

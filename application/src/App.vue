@@ -2,23 +2,10 @@
   <div id="app">
     <div class="ui inverted vertical masthead center aligned segment">
       <div class="ui text container">
-        <h1 class="ui inverted header"> Aplicação Todo List com Vue.js 3</h1>
-        <h2 class="ui inverted header">Glaucia Lemos
-          <div class="sub header">Cloud Advocate em JavaScript/Node.js @ Microsoft</div>
+        <h1 class="ui inverted header"> To Do List</h1>
+        <h2 class="ui inverted header"><center><i class="check icon"></i></center>
+          <div class="sub header">Vue.js 2 com SWA + GitHub Actions</div>          
         </h2>
-        <h3 class="ui inverted header">Rio de Janeiro, Brasil - 2020</h3>
-        <a class="tiny ui youtube button" type="button" href="https://www.youtube.com/user/l32759">
-          <i class="youtube icon"></i>
-          YouTube
-        </a>
-        <a class="tiny ui linkedin button" type="button" href="https://www.linkedin.com/in/glaucialemos/">
-          <i class="linkedin icon"></i>
-          LinkedIn
-        </a>
-        <a class="tiny ui twitter button" type="button" href="https://twitter.com/glaucia_lemos86">
-          <i class="twitter icon"></i>
-          Twitter
-        </a>
       </div>
     </div>
     <br />
@@ -47,23 +34,23 @@ export default {
     return {
       todos: [
         {
-          titulo: 'Todo A',
-          projeto: 'Projeto A',
+          titulo: 'Tarefa 1',
+          anotacao: 'Anotações...',
           concluido: false,
         },
         {
-          titulo: 'Todo B',
-          projeto: 'Projeto B',
+          titulo: 'Tarefa 2',
+          anotacao: 'Anotações...',
           concluido: true,
         },
         {
-          titulo: 'Todo C',
-          projeto: 'Projeto C',
+          titulo: 'Tarefa 3',
+          anotacao: 'Anotações...',
           concluido: false,
         },
         {
-          titulo: 'Todo D',
-          projeto: 'Projeto D',
+          titulo: 'Tarefa 4',
+          anotacao: 'Anotações...',
           concluido: false,
         },
       ],
