@@ -1,6 +1,6 @@
 # To Do List: Vue.js 2 com SWA + GitHub Actions
 
-Deploy automático e integrado usando o **[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/?WT.mc_id=vuechatapp_swa-github-gllemos)** e **[GitHub Actions](https://help.github.com/pt/actions)**
+Deploy automático e integrado usando o **[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/?WT.mc_id=vuechatapp_swa-github-gllemos)** e o **[GitHub Actions](https://help.github.com/pt/actions)**
 
 ## 🚀 Recursos Utilizados
 
@@ -13,7 +13,7 @@ Deploy automático e integrado usando o **[Azure Static Web Apps](https://docs.m
 * **[Vue.js](https://vuejs.org/)**
 * **[Vue CLI](https://cli.vuejs.org/)**
 * **Extensões Vue.js Usadas no Projeto**
-    - **[Vue 2 Snippets:](https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets&WT.mc_id=vuechatapp_swa-github-gllemos)**
+    - **[Vue 2 Snippets](https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets&WT.mc_id=vuechatapp_swa-github-gllemos)**
     - **[Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur&WT.mc_id=vuechatapp_swa-github-gllemos)**
     - **[Vue](https://marketplace.visualstudio.com/items?itemName=liuji-jim.vue&WT.mc_id=vuechatapp_swa-github-gllemos)**
     - **[Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets&WT.mc_id=vuechatapp_swa-github-gllemos)**
@@ -28,7 +28,7 @@ Para começar, você deve simplesmente clonar o repositório do projeto na sua m
 
 #### ❗️ Instalando as Dependências (via Windows): 
 
-Abre o cmd (caso esteja utilizando o Windows) e digite a path de seu projeto
+Abra o cmd (caso esteja utilizando o Windows) e digite a path de seu projeto
 
 ```
 cd "C:\Users\NomeDoComputador\Documents\..."
@@ -54,7 +54,7 @@ Bom, agora na mesma tela do cmd, basta iniciar o server para o projeto ser execu
 
 ## Links & Recursos Importantes
 
-Abaixo seguem alguns links e recursos importantes sobre SWA e GitHub Actions:
+Abaixo, seguem alguns links e recursos importantes sobre SWA e GitHub Actions:
 
 - ✅ **[Documentação Oficial do Azure Static Web Apps
 ](https://docs.microsoft.com/pt-br/azure/static-web-apps/?WT.mc_id=vuechatapp_swa-github-gllemos)**
