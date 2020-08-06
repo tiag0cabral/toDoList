@@ -1,8 +1,6 @@
-# Aplicação Todo List Vue.js 2 com SWA + GitHub Actions
+# To Do List: Vue.js 2 com SWA + GitHub Actions
 
-
-
-Repositório responsável pela demo desenvolvida para fins de ensinar como realizar deploy automático e integrado usando o **[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/?WT.mc_id=vuechatapp_swa-github-gllemos)** e **[GitHub Actions](https://help.github.com/pt/actions)**
+Deploy automático e integrado usando o **[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/?WT.mc_id=vuechatapp_swa-github-gllemos)** e **[GitHub Actions](https://help.github.com/pt/actions)**
 
 ## 🚀 Recursos Utilizados
 
@@ -22,7 +20,7 @@ Repositório responsável pela demo desenvolvida para fins de ensinar como reali
 
 ## 🔥 Executando Localmente a Aplicação 
 
-Caso você deseja executar o projeto na sua máquina local, basta seguir os passos abaixo:
+Caso você deseja executar o projeto em sua máquina local, basta seguir os passos abaixo:
 
 ### 🌀 Começando... 
 
@@ -30,21 +28,21 @@ Para começar, você deve simplesmente clonar o repositório do projeto na sua m
 
 #### ❗️ Instalando as Dependências (via Windows): 
 
-Abre o cmd (caso esteja utilizando o Windows) e digite a path do seu projeto
+Abre o cmd (caso esteja utilizando o Windows) e digite a path de seu projeto
 
 ```
 cd "C:\Users\NomeDoComputador\Documents\..."
 ```
 
-Depois, quando estiver na pasta do projeto, basta digitar no cmd a seguinte instrução: **(dentro da pasta: `todo-list`)**
+Depois, quando estiver na pasta do projeto, basta digitar no cmd a seguinte instrução: **(dentro da pasta: `application`)**
 
 ```
 npm install
 ```
 
-Ao digitar a instrução acima, automaticamente ele irá baixar todas as dependências listadas e definidas no arquivo package.json:
+Ao digitar a instrução acima, automaticamente ela irá baixar todas as dependências listadas e definidas no arquivo package.json:
 
-* `node_modules` - que contêm os packages do npm que precisará para o projeto.
+* `node_modules` - que contêm os packages do npm que são necessários ao projeto.
 
 #### 💨 Executando a Aplicação 
 
@@ -71,11 +69,9 @@ Static Web Apps](https://docs.microsoft.com/learn/modules/create-deploy-static-w
 - ✅ **[Compilando fluxos de trabalho de integração contínua (CI) com o GitHub Actions](https://docs.microsoft.com/learn/modules/github-actions-ci/?WT.mc_id=funfunctionsday-youtube-gllemos&WT.mc_id=vuechatapp_swa-github-gllemos)**
 
 - ✅ **[Criando Projeto no Vue-Cli](https://cli.vuejs.org/guide/creating-a-project.html#using-the-gui)** 
-- ✅ **[Crie sua primeira aplicação Vue.js no Visual Studio](https://docs.microsoft.com/visualstudio/javascript/quickstart-vuejs-with-nodejs?view=vs-2019&WT.mc_id=aprendendofrontend-github-gllemos)** 
+
+- ✅ **[Crie sua primeira aplicação Vue.js no Visual Studio](https://docs.microsoft.com/visualstudio/javascript/quickstart-vuejs-with-nodejs?view=vs-2019&WT.mc_id=aprendendofrontend-github-gllemos)**
+
 - ✅ **[Vue.js no Visual Studio Code](https://code.visualstudio.com/docs/nodejs/vuejs-tutorial?WT.mc_id=aprendendofrontend-github-gllemos)** 
 
-- ✅ **[Azure para desenvolvedores de JavaScript e Node.js](https://docs.microsoft.com/javascript/azure/?view=azure-node-latest&WT.mc_id=aprendendofrontend-github-gllemos)** 
-
-## 🚩 Tenho Dúvidas... O que fazer? 
-
-Caso tenham dúvidas aos códigos dos projetos relacionados aos workshops, sintam-se a vontade em abrir uma **[ISSUE AQUI](https://github.com/glaucia86/vue-chat-swa/issues)**. Assim que possível, estarei respondendo as todas as dúvidas que tiverem!
+- ✅ **[Azure para desenvolvedores de JavaScript e Node.js](https://docs.microsoft.com/javascript/azure/?view=azure-node-latest&WT.mc_id=aprendendofrontend-github-gllemos)**
